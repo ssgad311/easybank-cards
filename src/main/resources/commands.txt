@@ -1,0 +1,18 @@
+Creating docker image using JIB
+
+1. add the plugin
+<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.0</version>
+				<configuration>
+					<to>
+						<image>gaddams/easybank-${project.artifactId}</image>
+					</to>
+				</configuration>
+			</plugin>
+
+2. run the below command to create image
+mvn compile jib:dockerBuild
+
+3. docker run -d -p 8083:8083 gaddams/easybank-cards
