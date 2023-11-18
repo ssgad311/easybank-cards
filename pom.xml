@@ -83,7 +83,7 @@
 				<version>3.4.0</version>
 				<configuration>
 					<to>
-						<image>gaddams/easybank-cards</image>
+						<image>saikumar311/easybank-cards</image>
 					</to>
 				</configuration>
 			</plugin>
